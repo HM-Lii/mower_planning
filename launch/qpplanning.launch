@@ -1,0 +1,6 @@
+<launch>
+  <node name="path_planning" pkg="mower_planning" type="path_planning" output="screen"/>
+  <!-- <node pkg="rviz" type="rviz" name="rviz" output="screen" 
+    args="-d $(find mower_planning)/rviz/path.rviz" required="true">
+  </node> -->
+</launch>
